@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: green;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(225deg, rgb(67, 198, 168) 23%, rgb(57, 174, 178));
+    background: -moz-linear-gradient(225deg, rgb(67, 198, 168) 23%, rgb(57, 174, 178));
+    background: linear-gradient(225deg, rgb(67, 198, 168) 23%, rgb(57, 174, 178));
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: white;
+    background-color: rgba(255,255,255,0.20);
+    border-radius: 2em;
+    padding: 3em;
+    
+}
+
+.title {
+    font-size: 3em;
+    font-family: Calibri;
+}
+
+hr {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 2em;
+    border: none;
+}
+
+.timer {
+    font-size: 10em;
+    font-weight: 700;
+    font-family: Calibri;
+}
+
+.button-wrapper {
+    display: flex;
+    gap: 1em;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 0.5em 1.5em;
+    border-radius: 0.5em;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+button:hover {
+    transform: translateY(-10px);
+}
+
+.start {
+    background-color: #037B71;
+}
+
+.stop {
+    background-color: #E7A44D;
+}
+
+.reset {
+    background-color: #3B70E0;
+}
